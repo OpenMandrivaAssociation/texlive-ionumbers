@@ -1,5 +1,11 @@
+# revision 23380
+# category Package
+# catalog-ctan /macros/latex/contrib/ionumbers
+# catalog-date 2011-06-15 09:16:20 +0200
+# catalog-license gpl
+# catalog-version 0.3.1-alpha
 Name:		texlive-ionumbers
-Version:	0.3.1.alpha
+Version:	0.3.1alpha
 Release:	1
 Summary:	Restyle numbers in maths mode
 Group:		Publishing
@@ -60,6 +66,7 @@ output as $26\times10\,^{6}$.
 #- source
 %doc %{_texmfdistdir}/source/latex/ionumbers/ionumbers.dtx
 %doc %{_texmfdistdir}/source/latex/ionumbers/ionumbers.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -70,3 +77,5 @@ output as $26\times10\,^{6}$.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
