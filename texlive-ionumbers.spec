@@ -66,3 +66,17 @@ output as $26\times10\,^{6}$.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3.1alpha-2
++ Revision: 752804
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.3.1alpha-1
++ Revision: 718730
+- texlive-ionumbers
+- texlive-ionumbers
+- texlive-ionumbers
+- texlive-ionumbers
+
