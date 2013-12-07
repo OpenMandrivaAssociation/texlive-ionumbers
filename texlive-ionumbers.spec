@@ -6,7 +6,7 @@
 # catalog-version 0.3.1-alpha
 Name:		texlive-ionumbers
 Version:	0.3.1alpha
-Release:	4
+Release:	5
 Summary:	Restyle numbers in maths mode
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ionumbers
