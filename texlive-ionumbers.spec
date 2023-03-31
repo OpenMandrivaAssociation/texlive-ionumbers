@@ -1,6 +1,6 @@
 Name:		texlive-ionumbers
 Version:	33457
-Release:	1
+Release:	2
 Summary:	Restyle numbers in maths mode
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ionumbers
