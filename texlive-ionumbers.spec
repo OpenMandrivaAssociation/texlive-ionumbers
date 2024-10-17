@@ -3,7 +3,7 @@ Version:	33457
 Release:	2
 Summary:	Restyle numbers in maths mode
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ionumbers
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ionumbers
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ionumbers.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ionumbers.doc.r%{version}.tar.xz
